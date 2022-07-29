@@ -182,7 +182,7 @@ public class Texture2dToPNG : EditorWindow
             } 
         }
         if(UseTexture2dName) FileName = null;
-        Debug.Log("変換完了"+"( 成功: "+success.ToString()+", パス: "+passed+" )"+"\n指定したパス: " + _path);
+        Debug.Log("変換完了"+"( 成功: "+success.ToString()+", 無視: "+passed+" )"+"\n指定したパス: " + _path);
         System.Diagnostics.Process.Start(_path);
     }
 }
